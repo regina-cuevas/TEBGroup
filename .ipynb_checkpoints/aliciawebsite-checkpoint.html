@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Alicia Ceja</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Optima, Perpetua;
+}
+
+/* Style the header */
+header {
+  background-color: Snow;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: LightCoral;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 900px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: Lavender;
+  height: 900px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 900px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<header>
+  <h3>¡Bienvenidos! I'm Alicia Ceja</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <img src="AliciaProfilePic.JPG" alt="profile picture" width="100%" height="300">
+      <li><a href="AliciaResume.pdf">Resume</a></li>
+      <li><a href="https://www.bonappetit.com/recipe/spicy-sweet-sambal-pork-noodles">My Favorite Recipe</a></li>
+      <li><a href="Anthro of Bus MKT.pdf">Anthropology of Business Literature Review</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h2 style="color:#a1a1dd;">All About Me</h2>
+    <h1 style="color:Plum;">My Background</h1>
+    <p style="color:#dda1b0;">I just spent the past 6 months studying in Sevilla, España. I interned with Pod Systems, lived with a Sevillano family and travelled every weekend. I fell in love with the ability to immerse yourself in new cultures and cannot wait to return to Europe!</p>
+    <p style="color:#dda1b0;">I grew up in Brentwood, California which has given the Bay Area a special place in my heart. While I am small town girl at heart, living in Sevilla has made love the fast pace of a big city. This influences my desire to eventually end up calling San Francisco or New York home.</p>
+    <p style="color:#dda1b0;">My first internship was in Sevilla with Pod Group, an international telecommunication service provider that specializes in ioT Platforms. This immersion in the tech industry, and with the Silicon Valley in my backyard in the States, greatly influenced my drive towards all things digital and the placement in this TEB Program.</p>
+    <p style="color:#dda1b0;">Currently, I am a marketing assistant for Blue Collar Digital. They are an agency out of Walnut Creek, CA which aims to optimize local companies presence on every online platform.</p>
+    <h1 style="color:Plum;">My Passions</h1>
+    <p style="color:#dda1b0;">Through my abroad adventures, trying different foods is what I miss the most. This new palette for vibrant flavors inspired my current intrest in cooking. I have linked my favorite Spicy Sweet Sambal Pork Noodles recipe in the left column. Bon appetit! </p>
+    <p style="color:#dda1b0;">I am a member of the American Marketing Association; the San Francisco Chapter.</p>
+    <h1 style="color:Plum;">My Education</h1>
+    <p style="color:#dda1b0;">I am in my fourth and final year at Saint Mary's College of California. I am studying for a B.S. in Business Adminstration with a concentration in Marketing and a minor in Anthropology.</p>
+      <p style="color:#dda1b0;">I am fascinated by the application of anthropoloy to understanding consumer behavior as someone who has travled to over 13 countries, cultural differences are not to be dismissed in evaluating behaviors.</p>
+  </article>
+</section>
+
+<footer>
+  <img src="IMG_123.JPG" alt="lagos cliffs" width="15%" height="300">
+  <img src="IMG555.JPG" alt="florence bike" width="15%" height="300">
+  <img src="IMG_7176.JPG" alt="eiffle tower" width="15%" height="300">
+  <img src="IMG_8240.JPG" alt="cinque terre" width="15%" height="300">
+  <img src="IMG_556.JPG" alt="florence views" width="15%" height="300">
+  <img src="IMG_0380.JPG" alt="morrocco sunset" width="15%" height="300">
+</footer>
+
+</body>
+</html>
